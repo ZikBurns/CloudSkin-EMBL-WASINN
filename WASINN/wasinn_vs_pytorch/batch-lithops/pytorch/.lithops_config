@@ -1,0 +1,19 @@
+lithops:
+    backend: localhost
+    storage: localhost
+    log_level: DEBUG
+
+
+aws:
+    access_key_id: ASIA4ZTYB6XMAX2PVDYO
+    secret_access_key: HJ4ujErNVHWLH56IEkJtEjVKurgHxjP0BeBbeg50
+    session_token: IQoJb3JpZ2luX2VjEEIaCXVzLWVhc3QtMSJHMEUCIHlrHzZTzLbFgLkIxnoKe2Gf1iwzPGj2i/RRU18fE7X8AiEAxCt64LuZVTLi0LLGnfsbkLFGvw7NbbgI/jnRgVf4LJUq/QIIi///////////ARAAGgw4Nzk2NDYzNDA1NjgiDBwqmV/AjWc5Fqj/bSrRApQq3V4ZgRSE/YmrgcKWNE6m29vysg1EZf0dv6o0W60qeyNmQK9OqsAJJKigQJ410/a5DdMkehpulCtL9nAUr5fXXzVo0kTjhJvh2FEQ8JZY4+iuPA+rpgqU2InvdTHRO57kdxA/4scPbK80EQhHkmFpr3tMjRozoB4LfiGWeTZRImdA2BEPHEcRRvywWVQxSjY7NoZe5UUH2FMWf3uHdkCbRaSotrxe/zikmXFUs2YX055mvHg+DdZ9Sl8+GrkwFKNN6/UZH2z1Vcr80jTAgfpGPDye7ReQTRNIWmgk4LCZE0vbY9Qwd7aeF7nMQlSd8oVSlxYTxPF5gjblsifV/bClooySzo9dDb7Ip28vQEgvggSo5g4VyoY/QPHkQ12TEjgyAQZE/YANlTIGdRZWNT7cU5fjNxdVt+eIIRdrjrK+6C2StP9eH6QbqOxqagHWCjIwr/GLpAY6pwHl2dBNhnzgeTfbUa7cQkPCCoDJtXNTx0zlsObJyASCHcdIZFHTB6r44pHRfbL2/buF4RKzy1UhFgqIov7/FVJP6gVtvcc4kAoWH3viD64l4Z2lckKUxc5PYO7HbhPsB/5g5hkjLxCHr33Bp0CFEROmvTo5buQn76wfiYY9e8rn7u16GD3GjtPfHFpGUQzjJ0kqrWcBRzQdIRzowoNcFuA+EARDYkY9Dw==
+
+
+aws_lambda_custom:
+    execution_role: arn:aws:iam::879646340568:role/LithopsRole
+    region_name: us-east-1
+
+aws_s3:
+    storage_bucket: off-sample
+    region_name : us-east-1
